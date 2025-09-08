@@ -4,4 +4,4 @@ const VideoSchema = new mongoose.Schema({
   videoId: { type: String, required: true, unique: true }
 });
 
-module.exports = mongoose.model('Video', VideoSchema);
+module.exports = mongoose.model('Video', VideoSchema, 'videos');
