@@ -1,0 +1,12 @@
+# Node / Server
+server/node_modules
+server/.env
+
+# Client
+client/node_modules
+client/.expo
+client/.env
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
